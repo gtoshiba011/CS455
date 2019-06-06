@@ -1,0 +1,19 @@
+The files in this directory contain the test files and reference output used when you submit your program.
+
+They are:
+test1.in — initial configuration given is a final configuration (no rounds)
+test1.out  — the correct output when running test1.in with -u
+test2.in — initial configuration given is a random configuration (a few steps to the final round)
+test2.out  — the correct output when running test2.in with -u
+error_test.in — initial configuration given is an error and followed by a final configuration
+error_test.out  — the correct output when running error_test.in with -u
+
+You are allowed to submit as many times as you like, but if you want to run any of these tests yourself, this shows an example run with test1.in:
+
+    java -ea BulgarianSolitaireSimulator -u < $ASNLIB/public/test1.in > test1.out
+
+You can then look at the difference between your test1.out or run diff to compare them:
+
+    diff $ASNLIB/public/test1.out > test1.out
+
+Make sure your output is exactly the same as the expected output.

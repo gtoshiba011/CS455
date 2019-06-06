@@ -1,0 +1,9 @@
+Number of total cards is 45
+You will be entering the initial configuration of the cards (i.e., how many in each pile).
+Please enter a space-separated list of positive integers followed by newline:
+Initial configuration: 1 3 3 3 5 6 7 8 9
+[1] Current configuration: 2 2 2 4 5 6 7 8 9
+[2] Current configuration: 1 1 1 3 4 5 6 7 8 9
+[3] Current configuration: 2 3 4 5 6 7 8 10
+[4] Current configuration: 1 2 3 4 5 6 7 9 8
+Done!

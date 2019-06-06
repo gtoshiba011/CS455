@@ -1,0 +1,7 @@
+Number of total cards is 45
+You will be entering the initial configuration of the cards (i.e., how many in each pile).
+Please enter a space-separated list of positive integers followed by newline:
+ERROR: Each pile must have at least one card and the total number of cards must be 45
+Please enter a space-separated list of positive integers followed by newline:
+Initial configuration: 6 1 7 4 3 9 2 8 5
+Done!
